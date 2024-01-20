@@ -226,7 +226,7 @@ exports.getShowsMeta = (req, res, next) => {
   const user = getUser(req.headers.userid)
   const filteredShows = shows.filter(i => i.companyId === user.companyId).map(show => {
     const accessFields = show.access_control[user.role];
-    const newObj = {title: show.title, description: show.description, release_date: show.release_date}
+    let newObj = {title: show.title, description: show.description, release_date: show.release_date}
     accessFields.forEach(field => newObj = {...newObj, [field]: show[field]})
     return newObj
   });
