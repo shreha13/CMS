@@ -2,6 +2,7 @@ const { getUser } = require("./users.controller");
 
 const shows=[
   {
+    "id": '1',
     "companyId": 1,
     "title": "The Shawshank Redemption",
     "description": "Two imprisoned men bond over a number of years",
@@ -33,6 +34,7 @@ const shows=[
     }
   },
   {
+    "id": '2',
     "companyId": 1,
     "title": "Inception",
     "description": "A mind-bending heist movie",
@@ -65,6 +67,7 @@ const shows=[
     }
   },
   {
+    "id": '3',
     "companyId": 1,
     "title": "The Dark Knight",
     "description": "A vigilante known as Batman faces the Joker",
@@ -99,6 +102,7 @@ const shows=[
     }
   },
   {
+    "id": '4',
     "companyId": 1,
     "title": "Westworld",
     "description": "An amusement park for rich guests with android hosts",
@@ -140,6 +144,7 @@ const shows=[
     }
   },
   {
+    "id": '5',
     "companyId": 1,
     "title": "Pulp Fiction",
     "description": "Various interconnected stories in the criminal underworld",
@@ -173,6 +178,7 @@ const shows=[
     }
   },
   {
+    "id": '5',
     "companyId": 1,
     "title": "The Mandalorian",
     "description": "A lone bounty hunter navigates the outer reaches of the galaxy",
